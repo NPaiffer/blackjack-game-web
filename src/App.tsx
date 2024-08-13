@@ -59,7 +59,7 @@ const App: React.FC = () => {
     } else if (playerValue < dealerValue) {
       resultMessage = 'Dealer Ganhou!';
     } else {
-      resultMessage = 'It\'s a Tie!';
+      resultMessage = 'Empate!';
     }
 
     setGameOver(true);
